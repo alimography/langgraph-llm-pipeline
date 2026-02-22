@@ -1,5 +1,7 @@
-LLM Orchestration Engine – Stateful Evaluation-Driven AI Workflow
-🚀 Overview
+## LLM Orchestration Engine – Stateful Evaluation-Driven AI Workflow
+
+
+## 🚀 Overview
 
 This project implements a state-driven LLM orchestration pipeline using LangGraph and Groq (LLaMA 3.1) to simulate a production-grade intelligent response system.
 
@@ -17,7 +19,7 @@ Route execution dynamically using a state machine
 
 Unlike a basic chatbot, this project demonstrates decision-based LLM orchestration, similar to modern agent frameworks used in production AI systems.
 
-🧠 Architecture
+# 🧠 Architecture
 
 The system is built using a StateGraph workflow:
 
@@ -26,7 +28,7 @@ START → Chatbot Node → Evaluation Node
           Retry (if low quality)
                      ↓
                   End Node
-Core Components
+## Core Components
 1️⃣ Stateful Workflow Engine
 
 Uses TypedDict schema to define structured state
