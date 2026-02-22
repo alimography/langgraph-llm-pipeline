@@ -29,7 +29,7 @@ START → Chatbot Node → Evaluation Node
                      ↓
                   End Node
 ## Core Components
-1️⃣ Stateful Workflow Engine
+### 1️⃣ Stateful Workflow Engine
 
 Uses TypedDict schema to define structured state
 
@@ -45,7 +45,7 @@ isGood
 
 conversation messages
 
-2️⃣ LLM Generation Layer
+### 2️⃣ LLM Generation Layer
 
 Integrated with Groq API
 
@@ -55,7 +55,7 @@ Temperature-controlled generation
 
 Multi-turn message support
 
-3️⃣ Automated Response Evaluation
+### 3️⃣ Automated Response Evaluation
 
 Implements rule-based quality checks:
 
@@ -69,7 +69,7 @@ Prevents infinite loops using retry counters
 
 This simulates real-world model monitoring and inference validation systems.
 
-4️⃣ Retry & Resilience Mechanism
+### 4️⃣ Retry & Resilience Mechanism
 
 Controlled retry logic (max retry threshold)
 
@@ -77,7 +77,7 @@ Graceful error handling
 
 State preservation across attempts
 
-5️⃣ Memory Management
+### 5️⃣ Memory Management
 
 Maintains conversation history using message accumulation:
 
@@ -85,9 +85,9 @@ Enables multi-turn context
 
 Demonstrates state persistence
 
-Mirrors conversational AI systems used in production
+##Mirrors conversational AI systems used in production
 
-🔬 Why This Project Matters (Data Science Perspective)
+## 🔬 Why This Project Matters 
 
 This project demonstrates:
 
@@ -105,7 +105,7 @@ Error-tolerant system design
 
 It reflects modern AI engineering practices beyond simple prompt-response pipelines.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Python
 
@@ -119,7 +119,7 @@ Conditional execution graph
 
 dotenv (Environment management)
 
-📊 Key Features
+## 📊 Key Features
 
 Dynamic conditional routing
 
@@ -135,21 +135,8 @@ Modular node-based architecture
 
 Extensible design (easy to add tools / RAG / critic models)
 
-🎯 Learning Outcomes
 
-Through this project:
-
-Designed a state-machine-based AI workflow
-
-Implemented LLM evaluation logic
-
-Built retry and fallback mechanisms
-
-Applied production-level thinking to generative AI systems
-
-Developed modular orchestration architecture
-
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 LLM self-critique agent
 
